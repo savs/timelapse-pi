@@ -1,0 +1,20 @@
+---
+layout: main
+---
+
+<article class="article-page">
+  <div class="page-content">
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">{{page.title}}</h1>
+      <div>
+        {% if page.timelapse01 %} {% include video.html title="North" dir="timelapse01" date=page.title %} {% endif %}
+        {% if page.timelapse02 %} {% include video.html title="East" dir="timelapse02" date=page.title %} {% endif %}
+        {% if page.timelapse03 %} {% include video.html title="South" dir="timelapse03" date=page.title %} {% endif %}
+        {% if page.timelapse04 %} {% include video.html title="West" dir="timelapse04" date=page.title %} {% endif %}
+      </div>
+    </header>
+    <!-- {{content | markdownify}} -->
+    </div>
+  </div>
+</article>

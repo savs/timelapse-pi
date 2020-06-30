@@ -1,0 +1,18 @@
+---
+layout: main
+---
+{% for post in paginator.posts %}
+<article class="post">
+    <div class="post-content">
+      <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+      <a href="{{post.url | prepend: site.baseurl}}">
+        {% if post.timelapse01 %}<video autoplay loop><source src="https://atlas-timelapse.s3.amazonaws.com/timelapse01/{{post.title}}_thumbnail.mp4" type="video/mp4"></video>{% endif %}
+        {% if post.timelapse02 %}<video autoplay loop><source src="https://atlas-timelapse.s3.amazonaws.com/timelapse02/{{post.title}}_thumbnail.mp4" type="video/mp4"></video>{% endif %}
+        {% if post.timelapse03 %}<video autoplay loop><source src="https://atlas-timelapse.s3.amazonaws.com/timelapse03/{{post.title}}_thumbnail.mp4" type="video/mp4"></video>{% endif %}
+        {% if post.timelapse04 %}<video autoplay loop><source src="https://atlas-timelapse.s3.amazonaws.com/timelapse04/{{post.title}}_thumbnail.mp4" type="video/mp4"></video>{% endif %}    
+      </a>
+    </div>
+</article>
+{% endfor %}
+
+{% include pagination.html %}

@@ -1,0 +1,12 @@
+
+*.log
+server/data/
+.DS_Store
+__pycache__/
+client/data/uptime.txt
+client/data/images/images-go-here.txt
+server/scripts/log.txt
+.vscode/settings.json
+venv/
+web/flexible-jekyll/_posts
+newrelic.ini
