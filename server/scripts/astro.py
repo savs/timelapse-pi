@@ -5,6 +5,8 @@ import pytz
 from datetime import datetime, timezone
 from util import log
 
+# Gets dusk/dawn values for each day
+
 PORTLAND_LAT = '45.5227341'
 PORTLAND_LNG = '-122.6759347'
 

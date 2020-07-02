@@ -1,0 +1,1 @@
+Nothing here yet, but would like to start trying to classify all the images for patterns
