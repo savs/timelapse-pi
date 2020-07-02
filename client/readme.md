@@ -1,3 +1,5 @@
+Code and docs for the individual raspberrypis that capture photos
+
 # Initial setup
 
 - Raspi-config
