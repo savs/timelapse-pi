@@ -1,5 +1,7 @@
 # Server
 
+Gathers all the data from clients and generates the daily timelapses
+
 ```mermaid
 sequenceDiagram
     participant Raspi
