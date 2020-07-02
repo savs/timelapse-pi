@@ -1,6 +1,4 @@
-# TODO
-
-- clear data dir at start
+Tirelessly taking timelapses...
 
 # Timelapse workflow
 
@@ -29,7 +27,3 @@ sequenceDiagram
     EC2--Generates daily timelapse video-->S3
     S3--Post new video to slack channel every morning-->Slack
 ```
-
-# Website 
-
-Tirelessly taking timelapses...
