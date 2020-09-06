@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 import socket
 
-BUCKET = "atlascampi"
+BUCKET = "savs-picam"
 INTERVAL = 5
 NODE = socket.gethostname()
 DEV = False
