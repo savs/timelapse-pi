@@ -2,6 +2,12 @@
 
 Gathers all the data from clients and generates the daily timelapses
 
+
+    alias py="python3"
+    py -m pip install console-menu pytz
+
+    
+
 ```mermaid
 sequenceDiagram
     participant Raspi
